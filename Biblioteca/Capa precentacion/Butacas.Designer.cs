@@ -63,28 +63,38 @@
             // 
             // Cine
             // 
-            this.Cine.HeaderText = "Column1";
+            this.Cine.DataPropertyName = "Cine";
+            this.Cine.HeaderText = "Cine";
             this.Cine.Name = "Cine";
+            this.Cine.Visible = false;
             // 
             // Función
             // 
-            this.Función.HeaderText = "Column1";
+            this.Función.DataPropertyName = "Función";
+            this.Función.HeaderText = "Función";
             this.Función.Name = "Función";
+            this.Función.Visible = false;
             // 
             // Sala
             // 
-            this.Sala.HeaderText = "Column1";
+            this.Sala.DataPropertyName = "Sala";
+            this.Sala.HeaderText = "Sala";
             this.Sala.Name = "Sala";
+            this.Sala.Visible = false;
             // 
             // Disponibles
             // 
-            this.Disponibles.HeaderText = "Column1";
+            this.Disponibles.DataPropertyName = "Disponibles";
+            this.Disponibles.HeaderText = "Disponibles";
             this.Disponibles.Name = "Disponibles";
+            this.Disponibles.Visible = false;
             // 
             // NoDisponibles
             // 
-            this.NoDisponibles.HeaderText = "Column1";
+            this.NoDisponibles.DataPropertyName = "NoDisponibles";
+            this.NoDisponibles.HeaderText = "NoDisponibles";
             this.NoDisponibles.Name = "NoDisponibles";
+            this.NoDisponibles.Visible = false;
             // 
             // Butacas
             // 

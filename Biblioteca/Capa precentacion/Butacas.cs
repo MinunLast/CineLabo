@@ -17,15 +17,45 @@ namespace Biblioteca.Capa_precentacion
         public Butacas(DataTable datosConsulta)
         {
             InitializeComponent();
-            this.datosConsulta = datosConsulta;
-        }
 
-        private void MostrarResultados()
-        {
-            // Aquí puedes utilizar el DataTable (this.datosConsulta) para llenar un control de datos como un DataGridView
+            this.datosConsulta = datosConsulta;
+
+            dataGridView1.AutoGenerateColumns = false;
+
+            // Configurar la columna para 'nombre_cine'
+            DataGridViewTextBoxColumn columnaNombreCine = new DataGridViewTextBoxColumn();
+            columnaNombreCine.DataPropertyName = "nombre_cine"; // Nombre de la columna en el DataTable
+            columnaNombreCine.HeaderText = "Nombre del Cine";
+            dataGridView1.Columns.Add(columnaNombreCine);
+
+            // Configurar la columna para 'codigo_funcion'
+            DataGridViewTextBoxColumn columnaCodigoFuncion = new DataGridViewTextBoxColumn();
+            columnaCodigoFuncion.DataPropertyName = "codigo_funcion"; // Nombre de la columna en el DataTable
+            columnaCodigoFuncion.HeaderText = "Código de la Función";
+            dataGridView1.Columns.Add(columnaCodigoFuncion);
+
+            // Configurar la columna para 'id_sala'
+            DataGridViewTextBoxColumn columnaIdSala = new DataGridViewTextBoxColumn();
+            columnaIdSala.DataPropertyName = "id_sala"; // Nombre de la columna en el DataTable
+            columnaIdSala.HeaderText = "ID de la Sala";
+            dataGridView1.Columns.Add(columnaIdSala);
+
+            // Configurar la columna para 'butacas_disponibles'
+            DataGridViewTextBoxColumn columnaButacasDisponibles = new DataGridViewTextBoxColumn();
+            columnaButacasDisponibles.DataPropertyName = "butacas_disponibles"; // Nombre de la columna en el DataTable
+            columnaButacasDisponibles.HeaderText = "Butacas Disponibles";
+            dataGridView1.Columns.Add(columnaButacasDisponibles);
+
+            // Configurar la columna para 'butacas_no_disponibles'
+            DataGridViewTextBoxColumn columnaButacasNoDisponibles = new DataGridViewTextBoxColumn();
+            columnaButacasNoDisponibles.DataPropertyName = "butacas_no_disponibles"; // Nombre de la columna en el DataTable
+            columnaButacasNoDisponibles.HeaderText = "Butacas No Disponibles";
+            dataGridView1.Columns.Add(columnaButacasNoDisponibles);
+
+            // Llenar el DataGridView con los datos
             dataGridView1.DataSource = datosConsulta;
+
             // Ajusta las propiedades del DataGridView según tus necesidades
-            // Puedes, por ejemplo, ajustar el ancho de las columnas aquí si lo deseas
             dataGridView1.Columns["Cine"].Width = 150;
             dataGridView1.Columns["Función"].Width = 150;
             dataGridView1.Columns["Sala"].Width = 120;
@@ -38,5 +68,4 @@ namespace Biblioteca.Capa_precentacion
             // Puedes agregar lógica adicional para manejar clics en celdas si es necesario
         }
     }
-
 }
