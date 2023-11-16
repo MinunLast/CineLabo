@@ -1,0 +1,14 @@
+C:\Users\lauta\Desktop\Proyectos\1.Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\lauta\Desktop\Proyectos\1.Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\lauta\Desktop\Proyectos\1.Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\lauta\Desktop\Proyectos\1.Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\lauta\Desktop\Proyectos\1.Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.SuggestedBindingRedirects.cache
+C:\Users\lauta\Desktop\Proyectos\1.Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Forms.Agregar.resources
+C:\Users\lauta\Desktop\Proyectos\1.Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Menu.resources
+C:\Users\lauta\Desktop\Proyectos\1.Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+C:\Users\lauta\Desktop\Proyectos\1.Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.cache
+C:\Users\lauta\Desktop\Proyectos\1.Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\lauta\Desktop\Proyectos\1.Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\lauta\Desktop\Proyectos\1.Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\lauta\Desktop\Proyectos\1.Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Forms.MiLista.resources
+C:\Users\lauta\Desktop\Proyectos\1.Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Forms.Autor_Clasificacion.resources
