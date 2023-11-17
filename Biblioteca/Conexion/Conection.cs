@@ -77,19 +77,18 @@ GROUP BY
 
             return ConsultarBD(query);
         }
-        public DataTable ConsultarDetallePagos(string letraInicial, string letraFinal)
+        public DataTable ConsultarDetallePagos(DateTime letraInicial, DateTime letraFinal)
         {
-            string query = @"
-        SELECT dp.id_detalle_pago, dp.id_factura, c.apellido_cliente + ' ' + c.nom_cliente AS 'Nombre Cliente', d.valor AS 'Valor de Descuento', fp.descripcion AS 'Forma de pago'
+            string query = @"SELECT dp.id_detalle_pago, dp.id_factura, c.apellido_cliente + ' ' + c.nom_cliente AS 'Nombre Cliente', d.valor AS 'Valor de Descuento', fp.descripcion AS 'Forma de pago'
         FROM detalles_pagos dp
         JOIN facturas f ON f.id_factura = dp.id_factura
         JOIN detalles_facturas df ON df.id_factura = f.id_factura
         JOIN descuento d ON d.id_descuento = df.id_descuento
         JOIN formas_pago fp ON dp.id_forma = fp.id_forma
         JOIN clientes c ON c.id_cliente = f.id_cliente
-        WHERE d.valor > 30
-        AND fp.descripcion IN ('Efectivo', 'Credito')
-        AND c.apellido_cliente >= @LetraInicial AND c.apellido_cliente <= @LetraFinal;
+        WHERE 
+         fp.descripcion IN ('Efectivo', 'Credito')
+        AND f.fecha between @LetraInicial and @LetraFinal;
     ";
 
             // Utilizar un diccionario para asignar valores a los parámetros
@@ -138,7 +137,7 @@ GROUP BY
         FROM peliculas p
         JOIN clasificaciones c ON c.codigo_clasificacion = p.codigo_clasificacion
         JOIN categorias ca ON ca.codigo_categoria = p.codigo_categoria
-        WHERE DATEDIFF(MONTH, p.fecha_inicio, GETDATE()) = 1
+        WHERE DATEDIFF(MONTH, p.fecha_inicio, GETDATE()) = 0
         AND DATEDIFF(YEAR, p.fecha_inicio, GETDATE()) = 0;";
 
             return ConsultarBD(query);

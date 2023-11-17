@@ -22,7 +22,6 @@ C:\Users\lauta\Desktop\ProyectoLabo\Cine\CineLabo\Biblioteca\obj\Debug\Cine.cspr
 C:\Users\lauta\Desktop\ProyectoLabo\Cine\CineLabo\Biblioteca\obj\Debug\Cine.csproj.SuggestedBindingRedirects.cache
 C:\Users\lauta\Desktop\ProyectoLabo\Cine\CineLabo\Biblioteca\obj\Debug\Biblioteca.Capa_precentacion.Butacas.resources
 C:\Users\lauta\Desktop\ProyectoLabo\Cine\CineLabo\Biblioteca\obj\Debug\Biblioteca.Capa_precentacion.DetallePago.resources
-C:\Users\lauta\Desktop\ProyectoLabo\Cine\CineLabo\Biblioteca\obj\Debug\Biblioteca.Capa_precentacion.IngresarParametrosLetras.resources
 C:\Users\lauta\Desktop\ProyectoLabo\Cine\CineLabo\Biblioteca\obj\Debug\Biblioteca.Capa_precentacion.Inicio.resources
 C:\Users\lauta\Desktop\ProyectoLabo\Cine\CineLabo\Biblioteca\obj\Debug\Biblioteca.Capa_precentacion.Peliculas.resources
 C:\Users\lauta\Desktop\ProyectoLabo\Cine\CineLabo\Biblioteca\obj\Debug\Biblioteca.Capa_precentacion.Principal.resources
@@ -32,3 +31,4 @@ C:\Users\lauta\Desktop\ProyectoLabo\Cine\CineLabo\Biblioteca\obj\Debug\Cine.cspr
 C:\Users\lauta\Desktop\ProyectoLabo\Cine\CineLabo\Biblioteca\obj\Debug\Cine.csproj.CoreCompileInputs.cache
 C:\Users\lauta\Desktop\ProyectoLabo\Cine\CineLabo\Biblioteca\obj\Debug\Biblioteca.exe
 C:\Users\lauta\Desktop\ProyectoLabo\Cine\CineLabo\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\lauta\Desktop\ProyectoLabo\Cine\CineLabo\Biblioteca\obj\Debug\Biblioteca.Capa_precentacion.FechaInicial.resources

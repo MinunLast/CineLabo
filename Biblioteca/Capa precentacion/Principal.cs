@@ -49,7 +49,7 @@ namespace Biblioteca.Capa_precentacion
 
         private void button4_Click(object sender, EventArgs e)
         {
-            IngresarParametrosLetras nuevoForm = new IngresarParametrosLetras();
+            FechaInicial nuevoForm = new FechaInicial();
             nuevoForm.Show();
         }
 

@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Biblioteca.Capa_precentacion
 {
-    public partial class IngresarParametrosLetras : Form
+    public partial class FechaInicial : Form
     {
-        public IngresarParametrosLetras()
+        public FechaInicial()
         {
             InitializeComponent();
         }
@@ -31,8 +31,8 @@ namespace Biblioteca.Capa_precentacion
         private void button1_Click(object sender, EventArgs e)
         {
             // Asignar las letras ingresadas a las propiedades del formulario
-            string letraInicial = textBox1.Text;
-            string letraFinal = textBox2.Text;
+            DateTime letraInicial = dateTimePicker1.Value;
+            DateTime letraFinal = dateTimePicker2.Value;
 
             // Crear una instancia de la clase Conection
             Conection conexion = new Conection();
@@ -48,6 +48,11 @@ namespace Biblioteca.Capa_precentacion
 
             // Cerrar este formulario después de realizar la consulta
             this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

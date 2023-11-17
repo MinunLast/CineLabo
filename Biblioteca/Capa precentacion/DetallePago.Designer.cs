@@ -56,30 +56,35 @@
             this.Pago.DataPropertyName = "Pago";
             this.Pago.HeaderText = "Pago";
             this.Pago.Name = "Pago";
+            this.Pago.Visible = false;
             // 
             // Factura
             // 
             this.Factura.DataPropertyName = "Factura";
             this.Factura.HeaderText = "Factura";
             this.Factura.Name = "Factura";
+            this.Factura.Visible = false;
             // 
             // Cliente
             // 
             this.Cliente.DataPropertyName = "Cliente";
             this.Cliente.HeaderText = "Cliente";
             this.Cliente.Name = "Cliente";
+            this.Cliente.Visible = false;
             // 
             // Descuento
             // 
             this.Descuento.DataPropertyName = "Descuento";
             this.Descuento.HeaderText = "Descuento";
             this.Descuento.Name = "Descuento";
+            this.Descuento.Visible = false;
             // 
             // Forma
             // 
             this.Forma.DataPropertyName = "Forma";
             this.Forma.HeaderText = "Forma";
             this.Forma.Name = "Forma";
+            this.Forma.Visible = false;
             // 
             // DetallePago
             // 
